@@ -126,7 +126,7 @@ main{
   align-items: center;
 }
 .nav-item:hover .nav-item-link {
-  color: #f1f5f9;
+  color: #0c2928;
 }
 .nav-item-link {
   position: relative;
@@ -178,7 +178,7 @@ main{
 }
 
 .nav-item:hover .nav-item-link i {
-    color: #fff;
+    color: #0f2729;
     transform: rotate(180deg);
     transition: all .3s ease;
 }
@@ -194,7 +194,7 @@ main{
 }
 
 .submenu-item-link:hover {
-    color: #79f1b4;
+    color: #21696c;
 }
 
 .submenu-item {
@@ -649,6 +649,10 @@ main{
     color: #fff;
     font-family: 'Yeseva One', cursive;
     text-transform: uppercase;
+}
+
+.donate-btn-inner:hover {
+    color: #0f272a;
 }
 
 .donate-btn-outer {
