@@ -68,6 +68,7 @@ main{
 /*Header css start*/
 .header-section {
     position: relative;
+    background: #76f3b3;
 }
 .logo__shape {
     width: calc(50% - 394px);
@@ -125,12 +126,12 @@ main{
   align-items: center;
 }
 .nav-item:hover .nav-item-link {
-  color: #79f1b4;
+  color: #f1f5f9;
 }
 .nav-item-link {
   position: relative;
   font-size: 18px;
-  color: #000;
+  color: #0e2829;
   font-weight: 600;
   padding: 10px 17px;
   display: flex;
@@ -177,7 +178,7 @@ main{
 }
 
 .nav-item:hover .nav-item-link i {
-    color: #79f1b4;
+    color: #fff;
     transform: rotate(180deg);
     transition: all .3s ease;
 }
@@ -260,7 +261,7 @@ main{
     /*fixed header*/
 .fixed-header .header-section {
     position: fixed;
-    background: #ffffff;
+    background: #75f3b0;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     width: 100%;
     top: 0;
@@ -520,6 +521,7 @@ main{
 
 .event-item-image img {
     transition: all .5s ease;
+/*    height: 300px;*/
 }
 
 .event-item-title {
@@ -954,6 +956,8 @@ main{
 
 .blog-item-image img {
     transition: all .5s ease;
+    height: 300px;
+    object-fit: cover;
 }
 
 .blog-item-image .blog-tag {
@@ -1003,6 +1007,10 @@ main{
     color: #25283A;
     margin-bottom: 10px;
     transition: 0.3s;
+}
+
+.blog-item-title:hover {
+    color: #7ceeb4;
 }
 
 .blog-item-text {
